@@ -64,6 +64,16 @@ This is a good time to create an `application.properties` file and make any nece
 - [x] Refactor CourseService to use functions provided by CourseRepository.
 - [x] Refactor CourseController.
 
+```
+Course API
+--------------
+GET       /topics/{topicId}/courses          Get all courses
+GET       /topics/{topicId}/courses/{id}     Get one course
+POST      /topics/{topicId}/courses          Add new course
+PUT       /topics/{topicId}/courses/{id}     Update a course
+DELETE    /topics/{topicId}/courses/{id}     Delete a course
+```
+
 Add the `spring-boot-starter-actuator` and package the project as a jar or a traditional war. All good to go!
 
 # Thank you very much!
